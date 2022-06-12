@@ -1,0 +1,28 @@
+# # ini komentar
+
+# # abaikan semua file *.o dan *.a
+# *.[o a] 
+
+# # abaikan file yang diakhiri dengan ~
+# *~     
+
+# # abaikan file dengan ekstensi .log dan file .txt
+# *.log
+# *.txt
+  
+# # pengecualian, file.bak tidak diabaikan
+# !file.bak 
+
+# # hanya mengabaikan file didalam folder css, folder yang ada didalamnya tidak
+# /css                
+
+# # abaikan semua file didalam folder test/                   
+# test/ 
+# img/ 
+
+# # abaikan doc/notes.txt, tapi tidak doc/server/arch.txt
+# doc/*.txt 
+
+# # yang secara rekursif cocok dengan semua yang ada di direktori
+# **
+        
